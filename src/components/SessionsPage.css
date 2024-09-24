@@ -1,0 +1,124 @@
+.seminars-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .seminars-container h1{
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .seminars-container p{
+    text-justify: center;
+  }
+  
+  .seminars-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    grid-gap: 20px;
+  }
+  
+  .seminars-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .seminars-item img {
+    width: 100%;
+    height: 35vh;
+    border-radius: 8px 8px 0 0; /* Rounded corners for top */
+  }
+  
+  .seminars-details {
+    padding: 15px;
+  }
+  
+  .seminars-details p {
+    margin: 5px 0;
+  }
+  
+  .seminars-options {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  
+  .seminars-options button {
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .seminars-options button:hover {
+    text-decoration: underline;
+    background-color: #1a4415;
+  }
+  
+  .seminars-container button {
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+  }
+  
+  .seminars-container button:hover {
+    text-decoration: underline;
+    background-color: #1a4415;
+  }
+  
+.vegetable-tips-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #d4ffb2;
+    border-radius: 8px;
+  }
+  
+  .vegetable-tips-container h1 {
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .vegetable-tips-container h2 {
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .vegetable-tips-container h3 {
+    font-weight: 600;
+  }
+
+  .vegetable-tips-container ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .vegetable-tips-container ul li {
+    margin-bottom: 10px;
+    text-align: left;
+    margin: 5px 10px 5px 10px 
+  }
+  
+  .heading-container {
+    background-image: url(../images/aboutb.png);
+    background-size: cover; 
+    background-position: center; 
+  }
+
+.heading-container h1,h2{
+    color: #fff;
+    
+}
+.info-container img {
+  display: block; 
+  margin: 20px auto; 
+  max-width: 100%; 
+  height: 50vh; 
+}

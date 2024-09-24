@@ -1,0 +1,73 @@
+/* General Container styles */
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  padding: 10px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+  padding: 20px;
+}
+
+.box0 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+}
+
+.text1 h2,
+.text2 h2,
+.text3 h2,
+.text4 h2,
+.text5 h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.text1 p,
+.text2 p,
+.text3 p,
+.text4 p,
+.text5 p {
+  font-size: 20px;
+}
+
+/* Image styles */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Box styles */
+.box1,
+.box3,
+.box5 {
+  background-color: #96da79;
+}
+
+.box2,
+.box4 {
+  background-color: #d8b162;
+}
+
+.box0 {
+  background-color: #ffb49a;
+}
+
+.box0 .text-center {
+  text-align: center;
+}
+
+.box0 h2{
+  margin: 10px;
+  font-size: 30px;
+}
